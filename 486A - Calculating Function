@@ -1,0 +1,7 @@
+number=int(input())
+output=0
+if number%2==0:
+    output=number//2
+elif number%2!=0:
+    output=(number//2-number)
+print(output)       
