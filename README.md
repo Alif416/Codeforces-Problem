@@ -1,9 +1,1 @@
-time=int(input())
-output=0
-for i in range(time):
-    ppl,r_cap=map(int,input().split(' '))  
-    if ppl+1 == r_cap or ppl>r_cap:
-        output+=0
-    elif ppl<r_cap:
-        output+=1
-print(output)     
+
