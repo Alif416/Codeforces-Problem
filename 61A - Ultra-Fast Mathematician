@@ -1,0 +1,13 @@
+first_num=input()
+another_num=input()
+pointer1=0
+pointer2=0
+res=''
+for pointer1 in range(len(first_num)):
+    if first_num[pointer1]==another_num[pointer2]:
+        res+='0'
+    else:
+        res+='1'
+    pointer2+=1    
+
+print(res)
