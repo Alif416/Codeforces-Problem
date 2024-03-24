@@ -1,0 +1,11 @@
+num_of_char=int(input())
+arr=[]
+string=input()
+new=string.lower()
+for i in new:
+    if i not in arr:
+     arr.append(i)
+if len(arr)==26:
+    print("YES")
+else:
+    print("NO")    
